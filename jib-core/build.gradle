@@ -25,6 +25,9 @@ dependencies {
   implementation dependencyStrings.JACKSON_DATABIND
   implementation dependencyStrings.JACKSON_DATATYPE_JSR310
   implementation dependencyStrings.ASM
+  implementation('dev.sigstore:sigstore-java:0.6.0') {
+    exclude group: 'com.google.http-client'
+  }
 
   testImplementation dependencyStrings.JUNIT
   testImplementation dependencyStrings.TRUTH
