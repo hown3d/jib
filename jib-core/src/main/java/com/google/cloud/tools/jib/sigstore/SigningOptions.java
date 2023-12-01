@@ -1,2 +1,4 @@
-package com.google.cloud.tools.jib.sigstore;public class SigningOptions {
+package com.google.cloud.tools.jib.sigstore;
+
+public class SigningOptions {
 }
